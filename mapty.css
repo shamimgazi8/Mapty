@@ -1,0 +1,110 @@
+* {
+  font-family: poppins;
+  padding: 0;
+}
+
+.workouts_form {
+  cursor: pointer;
+  transition: all 0.5s, transform 1ms;
+  background: rgb(170, 224, 245);
+  transition: 0.6s;
+}
+.toggle_active {
+  transition: 0.6s;
+  display: none;
+}
+.form {
+  transition: all 0.5s, transform 1ms;
+  border-radius: 5px;
+  background-color: rgba(0, 204, 255, 0.44);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  transition: all 0.5s, transform 1ms;
+}
+.row {
+  transition: all 0.5s, transform 1ms;
+  margin-bottom: 10px;
+}
+input {
+  padding-left: 10px;
+  margin-left: 35px;
+  height: 25px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0px white;
+}
+input:focus {
+  outline: none;
+}
+
+select {
+  padding-left: 10px;
+  margin-left: 65px;
+  height: 25px;
+  width: 85px;
+  border-radius: 5px;
+  border: 0px white;
+}
+select:focus {
+  transition: 0.6s;
+  outline: none;
+}
+.form_result {
+  transition: all 0.5s, transform 1ms;
+  border-radius: 5px;
+  background-color: rgba(0, 204, 255, 0.44);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+.date {
+  color: rgb(255, 255, 255);
+  height: 20px;
+  padding-bottom: 10px;
+}
+.result {
+  transition: all 0.5s, transform 1ms;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.map {
+  background: rgb(255, 255, 255);
+}
+.fullbody {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 700px;
+  width: 100%;
+}
+.hidden {
+  display: none;
+}
+.submit {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+.Cyceling-pop {
+  border-radius: 15px;
+  border-left: 5px solid rgb(28, 245, 17);
+}
+.Running-pop {
+  border-radius: 15px;
+  border-left: 5px solid rgb(9, 110, 242);
+}
+
+.form_result_Running {
+  border-left: 10px solid rgb(9, 110, 242);
+}
+.form_result_Cyceling {
+  border-left: 10px solid rgb(28, 245, 17);
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <link rel="stylesheet" href="mapty.css" />
+    <script defer src="mapty.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapty Project</title>
+  </head>
+  <body>
+    <ul class="fullbody">
+      <div class="workouts_form">
+        <form class="form hidden">
+          <input class="submit" type="submit" name="" id="" />
+          <div class="" class="row">
+            <label for="">Type</label>
+            <select class="type" name="" id="">
+              <option value="Running">Running</option>
+              <option value="Cyceling">Cyceling</option>
+            </select>
+          </div>
+          <div class="row">
+            <label for="distance">Distance</label>
+            <input class="distance" type="text" name="distance" />
+          </div>
+          <div>
+            <label for="Duration">Duration</label>
+            <input class="duration" type="text" name="Duration" />
+          </div>
+          <div class="toggle">
+            <div class="op">
+              <label for="Cadence">Cadence</label>
+              <input class="cadence" type="text" name="Cadence" />
+            </div>
+            <div class="op toggle_active">
+              <label for="Elv Gain">Elv Gain</label>
+              <input class="elevgain" type="text" name="Elv Gain" />
+            </div>
+          </div>
+        </form>
+        <!-- <div class="form_result">
+          <div class="form_details">
+            <div class="date"><h2>Running on august 08</h2></div>
+            <div class="result">
+              <p>🏃‍♀️ 5 km</p>
+              <p>⌚ 10 min</p>
+              <p>⚡4.0 KM/H</p>
+              <p>👟175 Spm</p>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- <div class="form_result">
+          <div class="form_details">
+            <div class="date"><h2>Running on august 08</h2></div>
+            <div class="result">
+              <p>🏃‍♀️ 5 km</p>
+              <p>⌚ 10 min</p>
+              <p>⚡4.0 KM/H</p>
+              <p>👟175 Sprm</p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div id="map"></div>
+    </ul>
+  </body>
+</html>
